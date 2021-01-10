@@ -1,0 +1,28 @@
+.left-nav{
+  // background-color: $primary-color;
+  height: 100vh;
+  line-height: 100vh;
+
+  .menu {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+
+    &__item {
+      display: block;
+    }
+
+    &__link {
+      display: block;
+      padding: 10px 5px 10px;
+      transition: all .3s ease-in-out;
+
+      color: left-text-color($primary-color);
+
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+    
+  }
+}

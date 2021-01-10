@@ -1,0 +1,28 @@
+.about{
+  .info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__left {
+      width: 50%;
+    }
+    
+    &__name {
+      font-size: 50px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    &__designation {
+      font-size: 14px;
+      color: main-text-color($primary-color);
+      margin-bottom: 10px;
+    }
+
+    &__description {
+      color: main-text-color($primary-color);
+      margin-bottom: 10px;
+    }
+  }
+}

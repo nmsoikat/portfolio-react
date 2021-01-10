@@ -1,0 +1,22 @@
+$primary-color: #0C0B48;
+$secondary-color:  rgb(218, 255, 7);
+
+@function left-text-color ($color){
+  @if (lightness($color) > 40%) {
+    @return #333;
+
+  } @else {
+    @return #fff;
+    
+  }
+}
+
+@function main-text-color ($color){
+  @if (lightness($color) > 40%) {
+    @return #fff;
+    
+  } @else {
+    @return #333;
+
+  }
+}
