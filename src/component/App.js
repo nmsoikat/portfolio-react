@@ -1,12 +1,12 @@
-import react from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import react from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import LeftMenu from './LeftMenu/LeftMenu';
-import About from './About/About';
-
+import LeftMenu from "./LeftMenu/LeftMenu";
+import About from "./About/About";
+import Resume from "./Resume/Resume";
+import Portfolio from "./Portfolio/Portfolio";
 
 class App extends react.Component {
-
   render() {
     return (
       <BrowserRouter>
@@ -21,18 +21,17 @@ class App extends react.Component {
 
               <div className="col-md-9 col-lg-10">
                 <main>
-                  <Route path="/" component={About} />
+                  <Route exact path="/" component={About} />
+                  <Route path="/resume" component={Resume} />
+                  <Route path="/portfolio" component={Portfolio} />
                 </main>
               </div>
-
             </div>
           </div>
-
         </Switch>
       </BrowserRouter>
-    )
+    );
   }
 }
-
 
 export default App;

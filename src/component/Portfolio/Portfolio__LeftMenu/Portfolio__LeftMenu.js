@@ -32,7 +32,6 @@ function LeftMenu() {
             Portfolio
           </NavLink>
         </li>
-        {/* <li className="menu__item"> <a href="#" className="menu__link">Contact</a></li> */}
       </ul>
     </nav>
   );

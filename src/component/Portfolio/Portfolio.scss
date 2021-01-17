@@ -1,0 +1,22 @@
+.my-projects{
+  display: flex;
+}
+
+.project {
+  border-radius: 10px;
+  background-color: #0c0b48;
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+}
+
+.project__image img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.project__title {
+  color: #fff;
+  margin: 15px 0;
+  font-size: 20px;
+}

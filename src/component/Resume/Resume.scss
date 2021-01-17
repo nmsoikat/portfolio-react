@@ -1,0 +1,59 @@
+.resume {
+  .resume__title{
+    @include section-title($secondary-color);
+  }
+
+  &__detail {
+
+    .resume-content{
+      display: flex;
+      border-radius: 6px;
+      width: 80%;
+      margin-bottom: 15px;
+      position: relative;
+
+      &__year-map {
+        @include resume-year-map($secondary-color);
+      
+        h3 {
+          font-size: 20px;
+          font-weight: bold;
+          }
+      }
+
+      &__desc {
+        background-color: lighten($secondary-color, 60%);
+        padding: 15px;
+      }
+
+      &__company-name {
+        font-size: 20px;
+      }
+  
+      &__designation {
+        font-size: 30px;
+        font-weight: bold;
+      }
+  
+      &__responsibility {
+        margin-top: 15px;
+      }
+    }
+  }
+
+}
+
+.edu-qualification{
+  &__title{
+    @include section-title( #f662a9);
+  }
+
+  .resume-content__year-map{
+    @include resume-year-map(#f662a9);
+  }
+
+  .resume-content__desc {
+    background-color: lighten(#f662a9, 60%);
+  }
+}
+
