@@ -7,7 +7,7 @@ import {
   FaReact,
   FaNode,
   FaGitAlt,
-} from "react-icons/fa";
+} from 'react-icons/fa';
 
 function About() {
   return (
@@ -15,7 +15,7 @@ function About() {
       <section className="info">
         <div className="info__left">
           <h1 className="info__name">
-            Hello, I'm <span class="highlight-text">NM Soikat</span>
+            {/* Hello, I'm <span class="highlight-text">NM Soikat</span> */}
           </h1>
 
           <p class="info__designation">
@@ -33,11 +33,11 @@ function About() {
         </div>
 
         <figure className="my-image">
-          <img src="/img/profile-1.png" />
+          {/* <img src="/img/profile-1.png" /> */}
         </figure>
       </section>
 
-      <section className="skill-area">
+      {/* <section className="skill-area">
         <h2 className="skill-area__title section-title">Skill Set</h2>
         <div className="skills">
           <div className="skills__item html">
@@ -65,7 +65,7 @@ function About() {
             <FaGitAlt /> <span className="sills__name">Git</span>
           </div>
         </div>
-      </section>
+      </section> */}
     </section>
   );
 }

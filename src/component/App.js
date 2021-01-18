@@ -1,10 +1,10 @@
-import react from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import react from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import LeftMenu from "./LeftMenu/LeftMenu";
-import About from "./About/About";
-import Resume from "./Resume/Resume";
-import Portfolio from "./Portfolio/Portfolio";
+import LeftMenu from './LeftMenu/LeftMenu';
+import About from './About/About';
+import Resume from './Resume/Resume';
+import Portfolio from './Portfolio/Portfolio';
 
 class App extends react.Component {
   render() {
