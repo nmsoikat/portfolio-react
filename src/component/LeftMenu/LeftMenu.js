@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 function LeftMenu() {
   return (
@@ -26,7 +26,7 @@ function LeftMenu() {
         <li className="menu__item">
           <NavLink
             activeClassName="activeLink"
-            to="/portfolio"
+            to="/portfolio/all"
             className="menu__link"
           >
             Portfolio
