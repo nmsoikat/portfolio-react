@@ -14,14 +14,43 @@
   }
 
   &__link {
-    border: 1px dashed #0c0b48;
+    border: 3px solid $primary-color;
     display: block;
     width: 100%;
-    color: #ffffff;
-    padding: 20px 0;
-    background-color: #9796ef;
-    // border-radius: 15px;
-    border-radius: 54% 32% 68% 46% / 38% 62% 76% 24%;
+    color: lighten($primary-color, 10%);
+    padding: 25px 0;
+    background: linear-gradient(45deg, lighten($primary-color, 65%) 10%, lighten($secondary-color, 10%) 80%);
+    border-radius: 15px;
+    border-radius: 88% 11% 20% 10% / 42% 27% 32% 73%;
+    transition: all .3s ease;
+
+    &:hover{
+      background: linear-gradient(45deg, lighten($primary-color, 50%) 10%, lighten($secondary-color, 5%) 80%);
+      color: #fff;
+    }
   }
 
+}
+
+
+@media (max-width: 768px) {
+  .project-menu{
+    position: unset;
+    transform: translateY(0);
+    display: flex;
+    
+    &__item {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  
+    &__link {
+      display: inline-block;
+      padding: 10px;
+    }
+  
+  }
+  
 }

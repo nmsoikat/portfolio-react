@@ -42,3 +42,32 @@
     border-color: $secondary-color;
   }
 }
+
+
+@media (max-width: 768px) {
+  .left-nav{
+    height: unset;
+    line-height: unset;
+  
+    .menu {
+      display: inline-block;
+      width: 100%;
+      margin: 10px 0;
+      text-align: center;
+      &__item {
+        display: inline-block;
+        margin-right: 10px;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+  
+      &__link {
+        padding: 10px 15px;
+        border-radius: 15px;
+      }
+      
+    }
+  }
+  
+}
