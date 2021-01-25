@@ -6,7 +6,11 @@ function Resume() {
         <section className="resume__detail">
           <article className="resume-content">
             <div className="resume-content__year-map">
-              <h3>2019 - Present</h3>
+              <h3>
+                2019 <br />
+                To <br />
+                Present
+              </h3>
             </div>
             <div className="resume-content__desc ">
               <h2 className="resume-content__designation">
@@ -16,10 +20,12 @@ function Resume() {
                 b-cause Bangladesh, ltd.
               </h3>
               <p className="resume-content__responsibility">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a
-                dignissimos quas saepe voluptates! Suscipit, a iure. Dolor
-                totam, perspiciatis atque voluptates dolores, iusto deleniti
-                eaque, non distinctio architecto cum.
+                <h4>Responsibilities:</h4>
+                <ul>
+                  <li>Webpage Front End Part from PSD Or Concept</li>
+                  <li>ERP Project Layout Fixing</li>
+                  <li>Complex HTML table design</li>
+                </ul>
               </p>
             </div>
           </article>
@@ -33,39 +39,43 @@ function Resume() {
         <section className="resume__detail">
           <article className="resume-content">
             <div className="resume-content__year-map">
-              <h3>2018-19 ~ Present</h3>
+              <h3>
+                Start-2018 <br /> Expected-2022
+              </h3>
             </div>
             <div className="resume-content__desc ">
               <h2 className="resume-content__designation">B.Sc. In CSE</h2>
               <h3 className="resume-content__company-name">
                 Dhaka International University
               </h3>
-              <p className="resume-content__responsibility">
+              {/* <p className="resume-content__responsibility">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a
                 dignissimos quas saepe voluptates! Suscipit, a iure. Dolor
                 totam, perspiciatis atque voluptates dolores, iusto deleniti
                 eaque, non distinctio architecto cum.
-              </p>
+              </p> */}
             </div>
           </article>
 
           <article className="resume-content">
             <div className="resume-content__year-map">
-              <h3>2013-14 ~ 2017-18</h3>
+              <h3>
+                Start-2013 <br /> Complete-2017
+              </h3>
             </div>
             <div className="resume-content__desc">
               <h2 className="resume-content__designation">
-                Diploma In Computer Science
+                Diploma In Computer Technology
               </h2>
               <h3 className="resume-content__company-name">
                 Dhaka International University
               </h3>
-              <p className="resume-content__responsibility">
+              {/* <p className="resume-content__responsibility">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a
                 dignissimos quas saepe voluptates! Suscipit, a iure. Dolor
                 totam, perspiciatis atque voluptates dolores, iusto deleniti
                 eaque, non distinctio architecto cum.
-              </p>
+              </p> */}
             </div>
           </article>
         </section>

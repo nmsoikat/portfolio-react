@@ -1,7 +1,7 @@
-import react from 'react';
-import PortfolioData from './PortfolioData';
-import PortfolioMenu from './PortfolioMenu/PortfolioMenu';
-import PortfolioItem from './PortfolioItem/PortfolioItem';
+import react from "react";
+import PortfolioData from "./PortfolioData";
+import PortfolioMenu from "./PortfolioMenu/PortfolioMenu";
+import PortfolioItem from "./PortfolioItem/PortfolioItem";
 
 class Portfolio extends react.Component {
   state = {
@@ -16,7 +16,7 @@ class Portfolio extends react.Component {
         <section className="my-projects">
           <section className="projects">
             {this.state.projects.map((item, index) => {
-              console.log('includes', item.categories.includes(category));
+              console.log("includes", item.categories.includes(category));
               if (item.categories.includes(category)) {
                 return (
                   <PortfolioItem

@@ -8,22 +8,26 @@
     .resume-content{
       display: flex;
       border-radius: 6px;
-      width: 80%;
+      flex-basis: 60%;
       margin-bottom: 15px;
       position: relative;
+      
 
       &__year-map {
         @include resume-year-map($secondary-color);
-      
+        width: 25%;
+        flex-shrink: 0;
+
         h3 {
           font-size: 20px;
           font-weight: bold;
-          }
+        }
       }
 
       &__desc {
         background-color: lighten($secondary-color, 60%);
         padding: 15px;
+        width: 75%;
       }
 
       &__company-name {
@@ -56,4 +60,3 @@
     background-color: lighten(#f662a9, 60%);
   }
 }
-
