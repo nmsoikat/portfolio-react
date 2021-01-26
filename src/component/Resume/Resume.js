@@ -7,8 +7,8 @@ function Resume() {
           <article className="resume-content">
             <div className="resume-content__year-map">
               <h3>
-                2019 <br />
-                To <br />
+                <span>2019 &nbsp;</span>
+                <span>To &nbsp;</span>
                 Present
               </h3>
             </div>
@@ -68,7 +68,7 @@ function Resume() {
                 Diploma In Computer Technology
               </h2>
               <h3 className="resume-content__company-name">
-                Dhaka International University
+                Bogura Polytechnic Institute
               </h3>
               {/* <p className="resume-content__responsibility">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a

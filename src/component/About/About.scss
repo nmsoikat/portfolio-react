@@ -1,4 +1,4 @@
-.about{
+.about {
   .info {
     display: flex;
     justify-content: space-between;
@@ -7,42 +7,40 @@
 
     .info-left {
       width: 60%;
-     
+
       &__name {
         font-size: 50px;
         font-weight: bold;
         margin-bottom: 10px;
       }
-  
+
       &__designation {
         font-size: 14px;
         color: main-text-color($primary-color);
         margin-bottom: 10px;
       }
-  
+
       &__description {
         color: main-text-color($primary-color);
         margin-bottom: 10px;
       }
     }
 
-    .info-right{
+    .info-right {
       // width: 50%;
 
-      .my-image{
+      .my-image {
         width: 300px;
 
-        &__profile-image{
+        &__profile-image {
           border-radius: 50%;
         }
       }
-
-
     }
   }
 
-  .skills{
-    display:flex;
+  .skills {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -51,7 +49,6 @@
   .skill-area__title {
     text-align: center;
   }
-
 
   .skills__item {
     font-size: 55px;
@@ -64,29 +61,65 @@
     color: #264de4;
   }
   .bootstrap {
-    color: #563d7c
+    color: #563d7c;
   }
   .sass {
-    color: #CD6799
+    color: #cd6799;
   }
   .js {
-    color: #323330
+    color: #323330;
   }
   .react {
-    color: #61DBFB
+    color: #61dbfb;
   }
   .node {
-    color: #3c873a
+    color: #3c873a;
   }
   .git {
-    color: #f34f29
+    color: #f34f29;
   }
   .sills__name {
     display: block;
     font-size: 20px;
   }
   .skills__item {
-      text-align: center;
+    text-align: center;
   }
 
+
+
+  .contact-area {
+    margin-top: 57px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+
+    .social-icons {
+      line-height: normal;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+
+      .item{
+        display: inline-block;
+        font-size: 34px;
+        color: #0c0b48;
+        margin-right: 10px;
+        transition: all .3s ease-in-out;
+      }
+
+      .item:last-child {
+        margin-right: 0px;
+      }
+      .item.facebook:hover{
+        color:#0088dc;
+      }
+      .item.github:hover{
+        color: #6e5494;
+      }
+      .item.hackerRank:hover{
+        color: #1ba94c;
+      }
+    }
+  }
 }

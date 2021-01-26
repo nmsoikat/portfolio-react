@@ -7,6 +7,9 @@ import {
   FaReact,
   FaNode,
   FaGitAlt,
+  FaFacebook,
+  FaGithub,
+  FaHackerrank,
 } from "react-icons/fa";
 
 function About() {
@@ -29,7 +32,7 @@ function About() {
             I love my designation and I believe on my skills.
           </p>
 
-          <button class="button">Hire Me</button>
+          {/* <button class="button">Hire Me</button> */}
         </div>
 
         <div className="info-right">
@@ -71,6 +74,34 @@ function About() {
             <FaGitAlt /> <span className="sills__name">Git</span>
           </div>
         </div>
+      </section>
+
+      <section className="contact-area">
+        <article className="social-icons">
+          <p className="msg">Please feel free to contact me:</p>
+          <p className="email">nurcse5@gmail.com</p>
+          <a
+            href="https://www.facebook.com/nmsoikat"
+            target="_blank"
+            className="item facebook"
+          >
+            <FaFacebook />
+          </a>
+          <a
+            href="https://github.com/saykat1"
+            target="_blank"
+            className="item github"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.hackerrank.com/nurcse5"
+            target="_blank"
+            className="item hackerRank"
+          >
+            <FaHackerrank />
+          </a>
+        </article>
       </section>
     </section>
   );

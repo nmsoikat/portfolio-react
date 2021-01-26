@@ -69,7 +69,7 @@
 
       .projects{
         grid-template-columns: auto;
-        height: 90vh;
+        height: 100vh;
         direction: rtl;
 
         /* width */
@@ -114,7 +114,7 @@
         .projects{
           grid-template-columns: auto;
           grid-auto-rows: auto;
-          height: 80vh;
+          height: 86vh;
           overflow-y: auto;
           
           /* width */
@@ -147,5 +147,29 @@
       flex-basis: 100%;
       margin-left: 15px;
     }
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio-area{  
+    .my-projects{
+        .projects{
+          height: 77vh;         
+       }
+  
+    }
+    
+  }
+}
+
+@media (max-width: 732px) {
+  .portfolio-area{  
+    .my-projects{
+        .projects{
+          height: 75vh;         
+       }
+  
+    }
+    
   }
 }
