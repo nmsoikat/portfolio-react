@@ -6,10 +6,12 @@ ul{
 }
 
 h1, h2, h3, p{margin: 0;}
-
+a{
+  display: inline-block;
+  text-decoration: none;
+}
 a:hover{
   text-decoration: none;
-  display: inline-block;
 }
 
 img {
@@ -33,7 +35,7 @@ body{
 .button {
   border-radius: 6px;
   border: none;
-  padding: 15px 50px;
+  padding: 12px 15px;
   background-color: transparent;
   border: 2px solid $secondary-color;
   color: $secondary-color;

@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
 function PortfolioMenu() {
   return (
@@ -25,10 +25,10 @@ function PortfolioMenu() {
       <li className="project-menu__item">
         <NavLink
           activeClassName="activeLink"
-          to="/portfolio/landing-page"
+          to="/portfolio/webDesign"
           className="project-menu__link"
         >
-          Landing Page
+          Web Design
         </NavLink>
       </li>
     </ul>

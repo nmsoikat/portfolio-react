@@ -22,8 +22,8 @@ function Resume() {
               <p className="resume-content__responsibility">
                 <h4>Responsibilities:</h4>
                 <ul>
-                  <li>Webpage Front End Part from PSD Or Concept</li>
-                  <li>ERP Project Layout Fixing</li>
+                  <li>Front End Part from PSD Or Concept</li>
+                  <li>Working on ERP project</li>
                   <li>Complex HTML table design</li>
                 </ul>
               </p>
@@ -48,12 +48,9 @@ function Resume() {
               <h3 className="resume-content__company-name">
                 Dhaka International University
               </h3>
-              {/* <p className="resume-content__responsibility">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a
-                dignissimos quas saepe voluptates! Suscipit, a iure. Dolor
-                totam, perspiciatis atque voluptates dolores, iusto deleniti
-                eaque, non distinctio architecto cum.
-              </p> */}
+              <p className="resume-content__responsibility">
+                9th Semester (3 semester remaining)
+              </p>
             </div>
           </article>
 
@@ -70,12 +67,7 @@ function Resume() {
               <h3 className="resume-content__company-name">
                 Bogura Polytechnic Institute
               </h3>
-              {/* <p className="resume-content__responsibility">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa a
-                dignissimos quas saepe voluptates! Suscipit, a iure. Dolor
-                totam, perspiciatis atque voluptates dolores, iusto deleniti
-                eaque, non distinctio architecto cum.
-              </p> */}
+              <p className="resume-content__responsibility">CGPA: 3.37</p>
             </div>
           </article>
         </section>

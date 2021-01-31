@@ -4,9 +4,11 @@
   text-align: center;
   padding: 5px;
   position: relative;
-
+  overflow: hidden;
+  height: 300px;
+  
   &__image{
-    max-height: 200px;
+    max-height: 300px;
     overflow: hidden;
 
     img {
@@ -19,16 +21,18 @@
      
   &__desc {
     position: absolute;
-    bottom: 0;
+    bottom: -50%;
     left: 0;
-    height: 0;
+    height: fit-content;
     width: 100%;
-    background-color: lighten($primary-color, 70%);
+    padding: 8px 5px;
+    background-color: lighten($primary-color, 50%);
     overflow: hidden;
     visibility: hidden;
     opacity: 0;
     border-radius: 0 0 5px 5px;
     transition: all .5s ease-in-out .5s;
+    color: lighten($primary-color, 100%);
   }
 
   &:hover{
@@ -37,14 +41,13 @@
     .project__desc {
       visibility: visible;
       opacity: 1;
-      height: 50px;
-      line-height: 50px;
+      bottom: 0;
     }
 
     .project__image{
       img {
         width: 100%;
-        transform: translateY(calc(-100% + 200px - 50px));
+        transform: translateY(calc(-100% + 300px + 16px));
       }
     }
 
@@ -55,7 +58,7 @@
 @media (max-width: 991px) {
   .project {
     &__image{
-      max-height: 200px;
+      max-height: 300px;
       overflow: hidden;
     }
   }

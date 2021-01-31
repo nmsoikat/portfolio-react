@@ -10,6 +10,7 @@ import {
   FaFacebook,
   FaGithub,
   FaHackerrank,
+  FaLinkedin,
 } from "react-icons/fa";
 
 function About() {
@@ -18,21 +19,27 @@ function About() {
       <section className="info">
         <div className="info-left">
           <h1 className="info-left__name">
-            Hello, I'm <span class="highlight-text">NM Soikat</span>
+            <span className="greeting">Hi,</span>
+            I'm <span class="highlight-text">Soikat</span>
           </h1>
 
           <p class="info-left__designation">
-            Front-End Developer at b-causeBD
-            <img src="" alt="" />
+            <strong>Front-End Developer</strong>
+            {/* <img src="" alt="" /> */}
           </p>
 
           <p className="info-left__description">
-            I am a Front-End Developer. I have 1 year experience about Front-End
-            Development. I know well HTML, CSS, Bootstrap, JavaScript and React.
-            I love my designation and I believe on my skills.
+            I am a passionate Front-End Developer. I have
+            <strong> 1 year experience</strong> on Front-End Development.
+            <br /> I know well
+            <strong> HTML, CSS, Bootstrap, JavaScript and React</strong>. I also
+            know about NodeJS/ExpressJS, MongoDB, MySQL, SQL, Scss, BEM
+            methodology. I love my designation, I believe on my skills.
           </p>
 
-          {/* <button class="button">Hire Me</button> */}
+          <a href="#!" className="button btn-resume">
+            Download Resume
+          </a>
         </div>
 
         <div className="info-right">
@@ -87,6 +94,14 @@ function About() {
           >
             <FaFacebook />
           </a>
+          <a
+            href="https://www.linkedin.com/in/nur-mohammad-b4b9b4150/"
+            target="_blank"
+            className="item linkedIn"
+          >
+            <FaLinkedin />
+          </a>
+
           <a
             href="https://github.com/saykat1"
             target="_blank"
